@@ -8,7 +8,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Lights = () => {
-	const [ selectedColor, setSelectedColor ] = useState("yellow");
+	const [ selectedColor, setSelectedColor ] = useState("red");
 	
 	useEffect(() => {
     const colors = ["red", "yellow", "green"];
