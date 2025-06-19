@@ -1,11 +1,47 @@
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.base{
+    left: 350px;
+    position: absolute;
+    background-color: black !important;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 500px;
+    margin-left: 500px;
+    padding: 10px;
+}
+.redlight{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.yellowlight{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.greenlight{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.rglow{
+    box-shadow: 0px 0px 9px 5px red;
+}
+.yglow{
+    box-shadow: 0px 0px 9px 5px yellow;
+}
+.gglow{
+    box-shadow: 0px 0px 9px 5px green;
+}
+.container::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 50px;
+  background-color: black;
+}
